@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume to Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Resume to Portfolio Generator</h1>
+        <p>Upload your resume to generate a portfolio landing page. Your data is processed securely and not stored.</p>
+        <form method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="resume" class="form-label">Upload Resume (PDF)</label>
+                <input type="file" class="form-control" id="resume" name="resume" accept=".pdf" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Generate Portfolio</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
